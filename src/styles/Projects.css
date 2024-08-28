@@ -6,7 +6,7 @@
 
 .projects h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .project {
@@ -25,4 +25,27 @@
 }
 .portfolio_image {
     height : 300px;
+}*/
+.project1 {
+    font-size: 2rem;
+}
+.project2 {
+    font-size: 2rem;
+}
+
+.description1 {
+    font-size: 2rem;
+    margin: 10px 20px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    color: grey;
+    border-radius: 5px;
+}
+.description2 {
+    font-size: 2rem;
+    margin: 10px 20px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    color: grey;
+    border-radius: 5px;
 }
