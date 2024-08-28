@@ -30,10 +30,6 @@
     color: #fff;
 }
 
-/*.btn--med {
-    padding: 1.5rem 5rem;
-    font-size: 1.6rem;
-}*/
 .btn--med {
     display: inline-block;
     margin-top: 20px;
@@ -51,20 +47,9 @@
     letter-spacing: 1px;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 3.5rem;
-    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     color: #111;
-}
-.heading-sec__main::after {
-    content: '';
-    position: absolute;
-    top: calc(100% + 1.5rem);
-    height: 5px;
-    width: 3rem;
-    background: #7843E9;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5px;
 }
 .about__content-title {
     font-weight: 700;
