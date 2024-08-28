@@ -1,103 +1,67 @@
-.about {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    text-align: center;
-}
+import React from 'react';
+import '../styles/About.css'
 
-.about h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+const About = () => {
+    return (
+        <>
+        <section id="about" className="about">
+           
+       
+        <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+          Hello! I'm SHIVANG, a Software Devloper. I have a passion for Website Development. I enjoy working on projects that challenge me and allow me to grow my skillset.
+          In my free time, I love listening music. I'm constantly learning new things and looking for opportunities to apply my skills in meaningful ways.
+          </span>
+        </h2>
+        <div className="about__content">
+          <div className="about__content-main">
+            <h3 className="about__content-title">Get to know me!</h3>
+            <div className="about__content-details">
+              <p className="about__content-details-para">
+                I'm a <strong>Frontend Focused Web Developer</strong> building
+                and managing the Front-end of Websites and Web Applications that
+                leads to the success of the overall product. Check out some of
+                my work in the <strong>Projects</strong> section.
+              </p>
+              <p className="about__content-details-para">
+                I also like sharing content related to the stuff that I have
+                learned over the years in <strong>Web Development</strong> so it
+                can help other people of the Dev Community. Feel free to Connect
+                or Follow me on my &nbsp;
+                <a href='https://www.linkedin.com/in/shivang-741b781aa/'>Linkedin</a>
+                &nbsp; and &nbsp;
+                <a href='https://github.com/shivang804'>Github</a> &nbsp;
+                where I post useful content related to Web Development and
+                Programming
+              </p>
+              <p className="about__content-details-para">
+                I'm open to <strong>Job</strong> opportunities where I can
+                contribute, learn and grow. If you have a good opportunity that
+                matches my skills and experience then don't hesitate to
+                <strong>contact</strong> me.
+              </p>
+            </div>
+            <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>
+          </div>
+          <div className="about__content-skills" id="">
+            <h3 className="about__content-title" >My Skills</h3>
+            <div className="skills">
+              <div className="skills__skill">HTML</div>
+              <div className="skills__skill">CSS</div>
+              <div className="skills__skill">JavaScript</div>
+              <div className="skills__skill">ReactJs</div>
+              <div className="skills__skill">JAVA</div>
+              <div className="skills__skill">OOPS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+        
+        </>
+    );
+};
 
-}
-
-.about p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.about__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
-}
-.about__content-title {
-    font-weight: 700;
-    font-size: 2.8rem;
-    margin-bottom: 3rem;
-}
-.btn--theme {
-    background: #7843E9;
-    color: #fff;
-}
-
-.btn--med {
-    display: inline-block;
-    margin-top: 20px;
-    padding: .6rem 2rem;
-    font-size: 1.6rem;
-    background-color:blueviolet;
-    color: bisque;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.heading-sec__main {
-    display: block;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    letter-spacing: 3px;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    color: #111;
-    top: 20px;
-}
-.about__content-title {
-    font-weight: 700;
-    font-size: 2.8rem;
-    margin-bottom: 3rem;
-}
-h3.about__content-title {
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    text-align: left;
-}
-
-.skills {
-    background-color: #fff;
-    padding: 60px 20px;
-    text-align: center;
-}
-.skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #666;
-}
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: inherit;
-}
-.about__content-details-para {
-    font-size: 1.8rem;
-    color: #666;
-    max-width: 60rem;
-    line-height: 1.7;
-    margin-bottom: 1rem;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-}
+export default About;
