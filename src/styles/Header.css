@@ -40,3 +40,11 @@ nav ul li a {
 nav ul li a:hover {
     color: purple;
 }
+@media (max-width: 768px){
+    header {
+      justify-content: center;
+    }
+  header ul {
+    flex-direction: column;
+  }
+}

@@ -6,7 +6,7 @@
 
 .contact h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .contact p {
@@ -28,6 +28,35 @@
     margin-top: 20px;
     padding: 10px 20px;
     background-color:blueviolet;
+    color: bisque;
+    border-radius: 5px;
+    text-decoration: none;
+}
+label {
+    color: #6c0c0c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+form input,form textarea {
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #e6e1df;
+    border-color: bisque;
+    color: black;
+}
+.form_btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    background-color: blueviolet;
     color: bisque;
     border-radius: 5px;
     text-decoration: none;

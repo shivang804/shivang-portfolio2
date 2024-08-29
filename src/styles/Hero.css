@@ -24,6 +24,8 @@
     background-color: whitesmoke;
     color: purple;
     width: 1300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .btn-hero {
@@ -33,9 +35,13 @@
     margin-top: 10px;
     margin-bottom: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: blueviolet;
+    color: bisque;
     border-radius: 5px;
     text-decoration: none;
 }
-
+.hero_icons {
+    background-color: rgb(173, 162, 149);
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
