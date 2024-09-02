@@ -8,7 +8,7 @@ const Header = () => {
                 <a href='#hero'> <img src='./SHIVANGphoto.jpg' alt = "SHIVANG" className='header_logo'></img></a>
             </nav>
             </headerlogo>
-               <a href='#hero'><h3>SHIVANG</h3></a> 
+               <a href='#hero'><h3 className='header_name'>SHIVANG</h3></a> 
             <headercontent>
             <nav >
                 <ul>
