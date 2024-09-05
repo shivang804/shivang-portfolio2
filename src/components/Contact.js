@@ -4,6 +4,7 @@ import '../styles/Contact.css'
 const Contact = () => {
     return (
         <section id="contact" className="contact">
+            <img src='./common-bg.svg' alt= 'projectimage' className='portfolio_image'></img>
             <h2>Contact Me</h2>
             <form>
              <label>NAME</label> 

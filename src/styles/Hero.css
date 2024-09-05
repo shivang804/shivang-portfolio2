@@ -1,10 +1,13 @@
 .hero {
+
+    background-image: './background.png';
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 .heading-primary {
     font-size: 4rem;
     text-transform: uppercase;
@@ -21,7 +24,6 @@
     line-height: 1.6;
 }
 .hero-content {
-    background-color: whitesmoke;
     color: purple;
     width: 1300px;
     padding-top: 100px;
@@ -41,7 +43,7 @@
     text-decoration: none;
 }
 .hero_icons {
-    background-color: rgb(173, 162, 149);
+    background-color: #fff;
     padding-top: 160px;
     padding-bottom: 160px;
 }
