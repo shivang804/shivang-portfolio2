@@ -14,7 +14,16 @@
     margin-bottom: 10px;
     line-height: 1.6;
 }
-
+.heading-sec__sub{
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 61rem;
+    margin: auto;
+    line-height: 1.8;
+}
 .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;

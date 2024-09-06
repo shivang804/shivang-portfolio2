@@ -9,21 +9,8 @@
     margin-top: 30px;
 }
 
-.project {
-    margin-bottom: 40px;
-}
 
-.project h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-.project p {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    line-height: 1.6;
-}
-.portfolio_image {
+.project_image1,.project_image2 {
     height : 300px;
 }
 .project1 {
@@ -49,3 +36,13 @@
     color: grey;
     border-radius: 5px;
 }
+ .btn-project{
+    display: inline-block;
+    margin-top: 20px;
+    padding: .6rem 1rem;
+    font-size: 1.6rem;
+    background-color: blueviolet;
+    color: bisque;
+    border-radius: 5px;
+    text-decoration: none;
+ }

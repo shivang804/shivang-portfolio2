@@ -5,12 +5,12 @@ const Header = () => {
         <header>
             <headerlogo>
             <nav>
-                <a href='#hero'> <img src='./SHIVANGphoto.jpg' alt = "SHIVANG" className='header_logo'></img></a>
+                <a href='#hero'> <img src='./SHIVANGphotobg.jpg' alt = "SHIVANG" className='header_logo'></img></a>
             </nav>
             </headerlogo>
                <a href='#hero'><h3 className='header_name'>SHIVANG</h3></a> 
             <headercontent>
-            <nav >
+            <nav className='header_contents'>
                 <ul>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About</a></li>

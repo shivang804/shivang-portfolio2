@@ -4,29 +4,53 @@ header {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem 1rem;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
     background-color: $background-color;
 }
 .header_logo {
     height: 50px;
     width: 50px;
-    margin-left: 10px;
+    margin-left: 14px;
     border-radius: 30px;
 }
 .header_name{
-    margin-left: 10px;
+    margin-left: -119px;
     color: #4c5865;
 }
-.nav_content {
-    justify-content: right;
+h3.header_name {
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 850;
+    transition: color .3s;
+}
+h3.header_name:hover {
+    color: purple;
+    
+}
+
+nav.header_contents {
+
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: color .3s;
 }
 
 nav { 
     ul {
     display: flex;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 373px;
+    margin-right: 130px;
     li {
         list-style: none;
         margin: 0 15px;
