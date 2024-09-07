@@ -40,7 +40,7 @@ const About = () => {
                 I'm open to <strong>Job</strong> opportunities where I can
                 contribute, learn and grow. If you have a good opportunity that
                 matches my skills and experience then don't hesitate to
-                <strong>contact</strong> me.
+                contact me.
               </p>
             </div>
             <a href="./#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>

@@ -7,11 +7,25 @@
 .projects h2 {
     font-size: 2.5em;
     margin-top: 30px;
+    &::after {
+        content: '';
+        position: absolute;
+        height: 5px;
+        width: 3rem;
+        background: #7843E9;
+        left: 48%;
+        transform: translateY(854%);
+        border-radius: 5px;
+    }
 }
 
 
 .project_image1,.project_image2 {
     height : 300px;
+}
+.project_backgrond1 {
+    background-image: url('../images/projectbackground.jpeg');
+    background-size: contain;
 }
 .project1 {
     font-size: 2rem;
@@ -46,3 +60,15 @@
     border-radius: 5px;
     text-decoration: none;
  }
+ .project__content-title1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: -9rem;
+    margin-top: 5rem;
+}
+ .project__content-title2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: -9rem;
+    margin-top: 7rem;
+}
