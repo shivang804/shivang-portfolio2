@@ -28,10 +28,10 @@ h3.header_name {
     letter-spacing: 2px;
     font-weight: 850;
     transition: color .3s;
-}
-h3.header_name:hover {
-    color: purple;
-    
+    &:hover {
+        color: purple;
+        
+    }
 }
 
 nav.header_contents {
@@ -44,6 +44,7 @@ nav.header_contents {
     letter-spacing: 1px;
     font-weight: 600;
     transition: color .3s;
+    
 }
 
 nav { 
@@ -58,7 +59,7 @@ nav {
         a {
             color: black;
             text-decoration: none;
-            nav ul li &:hover {
+                &:hover {
                 color: purple;
     }
     }

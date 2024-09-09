@@ -1,17 +1,19 @@
 import React from 'react';
-import '../styles/Hero.css'
-import {FaGithub, FaHome,  FaLinkedinIn, FaMailBulk, FaPhone} from 'react-icons/fa'
+import '../styles/Hero.scss'
+//import {FaGithub, FaHome,  FaLinkedinIn, FaMailBulk, FaPhone} from 'react-icons/fa'
 
 const Hero = () => {
     return (
         <section id="hero" className="hero">
             
              <ul className='hero_icons'>
-                <li className='home_icon'><FaHome size={30} /></li>
-                <li className='linked_icon'><a href='https://www.linkedin.com/in/shivang-741b781aa/'><FaLinkedinIn size={30} /></a></li>
-                <li className='phone_icon'><FaPhone size={30} /></li>
-                <li className='git_icon'><a href='https://github.com/shivang804'><FaGithub size={30} /></a></li>
-                <li className='mail_icon'><a href='mailto:sharmashivang804@gmail.com'><FaMailBulk size={30} /></a></li>
+                <li className='home_icon'><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/shivang-741b781aa/'>
+                <img className="hero__icon" src="./icons8-linkedin (1).svg" alt="Shivang insta"></img>
+              </a></li>
+                <li className='linked_icon'><a href='https://www.linkedin.com/in/shivang-741b781aa/'> <img className="hero__icon" src="./icons8-twitter.svg" alt="Shivang insta"></img></a></li>
+                <li className='phone_icon'> <a href='https://www.linkedin.com/in/shivang-741b781aa/'><img className="hero__icon" src="./icons8-youtube.svg" alt="Shivang insta"></img></a></li>
+                <li className='git_icon'><a href='https://github.com/shivang804'> <img className="hero__icon" src="./icons8-git.svg" alt="Shivang insta"></img></a></li>
+                <li className='mail_icon'><a href='mailto:sharmashivang804@gmail.com'> <img className="hero__icon" src="./icons8-gmail.svg" alt="Shivang insta"></img></a></li>
             </ul>  
             <div className="hero-content">
                 <h1 className='heading-primary'>Hi, I'm SHIVANG</h1>

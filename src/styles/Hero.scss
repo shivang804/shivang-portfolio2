@@ -14,10 +14,11 @@
     text-align: center;
     color: #111;
     font-weight: 800;
+    padding-top: 30px;
 }
 .text-primary {
     color: #333;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 100%;
     line-height: 1.6;
@@ -41,13 +42,21 @@
     border-radius: 5px;
     text-decoration: none;
     margin-right: 66px;
+    padding: 1rem 5rem;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: translateY(-10px); 
+      }
 }
 .hero_icons {
     background-color: #fff;
-    padding-top: 40px;
-    padding-bottom: 40px;
     transform: translateX(-20px);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0;
+    height: 245px;
+    width: 50px;
+    padding-bottom: 0px;
+    margin-left: 1px;
+    padding-top: 0px;
 }
 .home-hero__mouse-scroll-cont{
     position: absolute;
@@ -72,6 +81,14 @@
     border-radius: 5px;
     font-weight: 600;
     color:  #666;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    &:hover{
+        background-color: lightskyblue;
+            }
  }
  li.linked_icon{
     padding: .5rem 0.5rem;
@@ -82,6 +99,14 @@
     border-radius: 5px;
     font-weight: 600;
     color:  #666;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    &:hover{
+        background-color: lightskyblue;
+            }
  }
  li.phone_icon{
     padding: .5rem 0.5rem;
@@ -92,6 +117,14 @@
     border-radius: 5px;
     font-weight: 600;
     color:  #666;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    &:hover{
+        background-color: lightskyblue;
+            }
  }
  li.git_icon{
     padding: .5rem 0.5rem;
@@ -102,6 +135,14 @@
     border-radius: 5px;
     font-weight: 600;
     color:  #666;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    &:hover{
+        background-color: lightskyblue;
+            }
  }
  li.mail_icon{
     padding: .5rem 0.5rem;
@@ -112,7 +153,18 @@
     border-radius: 5px;
     font-weight: 600;
     color: #666;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-right: 35px;
     &:hover{
 background-color: lightskyblue;
     }
+ }
+
+
+ ul li a {
+    color: black;
+    text-decoration: none;
  }

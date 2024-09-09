@@ -5,7 +5,7 @@
     padding: 60px 20px;
     text-align: center;
     h2 {
-        font-size: 2.5em;
+        font-size: 2rem;
         margin-top: 30px;
         &::after {
             content: '';
@@ -14,7 +14,7 @@
             width: 3rem;
             background: #7843E9;
             left: 48%;
-            transform: translateY(854%);
+            transform: translateY(1275%);
             border-radius: 5px;
             
         }
@@ -31,6 +31,9 @@
         }
     }
 }
+.after_contact{
+    margin-top: 60px;
+}
 .btn-resume {
     display: inline-block;
     margin-top: 20px;
@@ -39,6 +42,10 @@
     color: bisque;
     border-radius: 5px;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: translateY(-10px); 
+      }
 }
 label {
     color: #666;
@@ -57,7 +64,10 @@ form {
     margin: auto;
     max-width: 600px;
     background-color: white;
+    margin-top: 50px;
+    padding-bottom: 40px;
 }
+
 
 form input,form textarea {
     margin-bottom: 1rem;
@@ -67,12 +77,23 @@ form input,form textarea {
     border:1px solid #ebebeb;
     color: black;
 }
+.form-actions {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px; 
+    
+}
 .form_btn {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px 50px;
     background-color: blueviolet;
     color: bisque;
     border-radius: 5px;
     text-decoration: none;
+    padding: 1rem 4rem;
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+        transform: translateY(-10px); 
+      }
 }
