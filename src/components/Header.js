@@ -6,9 +6,9 @@ const Header = () => {
             <headerlogo>
             <nav>
                 <a href='#hero'> <img src='./SHIVANGphotobg.jpg' alt = "SHIVANG" className='header_logo'></img></a>
+               <a href='#hero'><h3 className='header_name'>SHIVANG</h3></a> 
             </nav>
             </headerlogo>
-               <a href='#hero'><h3 className='header_name'>SHIVANG</h3></a> 
             <headercontent>
             <nav className='header_contents'>
                 <ul>

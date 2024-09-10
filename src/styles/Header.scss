@@ -27,6 +27,9 @@ h3.header_name {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 850;
+    position: absolute;
+    transform: translateX(96%);
+    top: 25px;
     transition: color .3s;
     &:hover {
         color: purple;
